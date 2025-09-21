@@ -3,7 +3,7 @@
 	"id": "blues-utility-addons",
 	"version": "${version}",
 	"name": "Blue's Utility Addons",
-	"description": "A collection of addons such as Toggle Sneak, Armor Toggle, and a replier.",
+	"description": "A collection of useful addons such as Toggle Sneak, Armor Toggle, and a replier.",
 	"authors": [
 		"Blueishberry"
 	],
@@ -53,7 +53,7 @@
       "parent": {
         "id": "blues-utility-addons",
         "name": "Blue's Utility Addons",
-        "description": "A collection of addons such as Toggle Sneak, Armor Toggle, and a replier.",
+        "description": "A collection of useful addons such as Toggle Sneak, Armor Toggle, and a replier.",
         "icon": "assets/blues-utility-addons/icon.png",
         "badges": [ ]
       },
