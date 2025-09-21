@@ -6,7 +6,7 @@ plugins {
 version = project.mod_version
 group = project.maven_group
 
-//def modsDir = file("/home/blueishberry/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.6/minecraft/mods")
+def modsDir = file("/home/blueishberry/.var/app/org.prismlauncher.PrismLauncher/data/PrismLauncher/instances/1.21.6/minecraft/mods")
 
 base {
 	archivesName = project.archives_base_name
