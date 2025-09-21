@@ -1,0 +1,64 @@
+{
+	"schemaVersion": 1,
+	"id": "blues-utility-addons",
+	"version": "${version}",
+	"name": "Blue's Utility Addons",
+	"description": "A collection of addons such as Toggle Sneak, Armor Toggle, and a replier.",
+	"authors": [
+		"Blueishberry"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/blues-utility-addons",
+		"sources": "https://github.com/Blueishberry/blues-utility-addons"
+	},
+	"license": "MIT",
+	"icon": "assets/blues-utility-addons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"me.blueishberry.bluesutilityaddons.BluesUtilityAddons"
+		],
+		"client": [
+			"me.blueishberry.bluesutilityaddons.BluesUtilityAddonsClient"
+		],
+        "modmenu": [
+          "me.blueishberry.bluesutilityaddons.config.BluesUtilityAddonsModMenu"
+        ]
+	},
+	"mixins": [
+		"blues-utility-addons.mixins.json",
+		{
+			"config": "blues-utility-addons.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.6",
+		"java": ">=21",
+		"fabric-api": "*",
+        "cloth-config2": ">=15.0.127"
+	},
+	"suggests": {
+		"another-mod": "*",
+        "modmenu": "*"
+	},
+
+  "custom": {
+    "modmenu": {
+      "links": {
+        "modmenu.discord": "https://discord.gg/jEGF5fb"
+      },
+      "badges": [ ],
+      "parent": {
+        "id": "blues-utility-addons",
+        "name": "Blue's Utility Addons",
+        "description": "A collection of addons such as Toggle Sneak, Armor Toggle, and a replier.",
+        "icon": "assets/blues-utility-addons/icon.png",
+        "badges": [ ]
+      },
+      "update_checker": false
+    }
+  }
+
+}

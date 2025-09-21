@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "me.blueishberry.bluesutilityaddons.mixin.client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "KeyboardInputMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
